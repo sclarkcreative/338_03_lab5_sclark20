@@ -11,7 +11,7 @@ h2 {
 }
 
 tr:nth-child(even) {
-	background-color:#F2F1BF;
+	background-color:mintcream;
 }
 
 th {
@@ -36,4 +36,40 @@ tr:nth-child(2) {
 
 .image {
 	border:0px solid #ACA989;	
+	vertical-align:bottom;
+}
+
+nav {
+	background-color:mintcream;
+	width:100%;
+	height: 50px;	
+}
+
+ul {
+	list-style-type: none;	
+}
+
+li {
+	float:left;
+	display:block;
+	width:100px;
+	line-height:50px;
+}
+
+a:link {
+	text-decoration:none;
+	color:turquoise;
+}
+
+a:visited {
+	color:darkslategrey;
+}
+
+a:hover {
+	color:greenyellow;	
+}
+
+span {
+	font-weight:200;
+	font-style:italic;	
 }
