@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-* {
+body {
 	font-family:Helvetica, Arial, sans-serif;
 }
 
@@ -85,4 +85,29 @@ span {
 
 label { 
 	display: block;
+}
+
+fieldset {
+	font-family: 'Open Sans', sans-serif;
+	border:none;
+}
+
+input[type=text] { 
+    padding: 5px;
+    margin: 10px;
+}
+
+input[type=number] { 
+    padding: 5px;
+    margin: 10px;
+}
+
+legend {
+	font-weight:700;
+	font-size:20px;
+	padding-top: 40px;
+}
+
+.first name {
+	color:blue;
 }

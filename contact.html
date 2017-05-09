@@ -2,6 +2,7 @@
 <html>
 <head>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 <meta charset="UTF-8">
 <title>Forms</title>
 </head>
@@ -22,12 +23,11 @@
 
 	<form>
     	<fieldset>
-        	<legend>Sign Up Here</legend>
-            <label>first name<input type="text" name="first name"></label>
-            <label>last name<input type="text" name="last name"> </label>
-            <label>Address<input type="text" name="address"></label>
-            <label>City<input type="text" name="City"></label>
-            <p>State
+        	<legend>Payment Information</legend>
+            <p><label>first name:<input type="text" name="first name">
+            last name:<input type="text" name="last name"></label></p>
+            <p><label>Address<input type="text" name="address">City<input type="text" name="City"></label></p>
+            <p><label>State
             	<select>
 	<option value="AL">Alabama</option>
 	<option value="AK">Alaska</option>
@@ -81,10 +81,9 @@
 	<option value="WI">Wisconsin</option>
 	<option value="WY">Wyoming</option>
 </select>
-</p>
-            <label>Zip<input type="text" name="Zip"></label>
-            <label>Phone Number<input type="text" name="Phone Number"></label>
-            <label>Email<input type="text" name="Email"></label>
+            Zip<input type="number" name="Zip"></label></p>
+            <p><label>Phone Number<input type="number" name="Phone Number">
+            Email<input type="text" name="Email"></label></p>
             
             <p>Gender:
             	<input type="radio" name="gender" value="Male" check="checked"/> Male
@@ -92,19 +91,25 @@
                 <input type="radio" name="gender" value="Other" check="checked"/> Other
             </p>
             
-            <p>Please select your fav color
-            <select name="color" size="5" multiple="multiple">	
-                <input type="checkbox" name="color" value="brown" checked="checked"/> Brown
-            	<input type="checkbox" name="color" value="red" checked="checked"/> red
+            <p>Please select which color(s) HydroFlask you would like to buy</p>
+          	<p>
+                <input type="checkbox" name="color" value="red" checked="checked"/> red
+            	<input type="checkbox" name="color" value="orange" checked="checked"/> orange
+                <input type="checkbox" name="color" value="yellow" checked="checked"/> yellow
                 <input type="checkbox" name="color" value="green" checked="checked"/> green
+                <input type="checkbox" name="color" value="blue" checked="checked"/> blue
+                <input type="checkbox" name="color" value="purple" checked="checked"/> purple
                 <input type="checkbox" name="color" value="pink" checked="checked"/> pink
-                <input type="checkbox" name="color" value="white" checked="checked"/> white
-          	</select>
+      
             </p>
             
+            <hr>
             <p>Credit Card
             	<input type="password" name="card information"/>
             </p>
+            <input type="image" src="images/visa.png" height="15">
+            <input type="image" src="images/mastercard.png" height="30">
+            <input type="image" src="images/american_express.png" height="30">
             
             <p>Expiration date       
             <input type="text" class="form-control" placeholder="Month (00)" name="expMonth" maxlength="2" /> /
