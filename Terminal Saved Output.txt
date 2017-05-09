@@ -1,0 +1,716 @@
+Last login: Tue May  2 12:08:53 on console
+grc-korea:~ sclark20$ cd desktop
+grc-korea:desktop sclark20$ cd 338_03_lab5_sclark20
+grc-korea:338_03_lab5_sclark20 sclark20$ git init
+Initialized empty Git repository in /Users/sclark20/Desktop/338_03_lab5_sclark20/.git/
+grc-korea:338_03_lab5_sclark20 sclark20$ git add -A
+grc-korea:338_03_lab5_sclark20 sclark20$ git commit -m "add files"
+[master (root-commit) 6b8a7da] add files
+ 11 files changed, 6329 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100755 Lab 5 text.docx
+ create mode 100644 css/styles.css
+ create mode 100644 images/.DS_Store
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100755 images/Logo.ai
+ create mode 100644 images/Logo.gif
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+grc-korea:338_03_lab5_sclark20 sclark20$ git remote add origin https://github.com/sclarkcreative/338_03_lab5_sclark20.git
+grc-korea:338_03_lab5_sclark20 sclark20$ git push -u origin master
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (15/15), 2.70 MiB | 1.76 MiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/sclarkcreative/338_03_lab5_sclark20.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-korea:338_03_lab5_sclark20 sclark20$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+grc-korea:338_03_lab5_sclark20 sclark20$ git commit -am "add text to table"
+[master 947ad85] add text to table
+ 3 files changed, 105 insertions(+), 1 deletion(-)
+grc-korea:338_03_lab5_sclark20 sclark20$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.33 KiB | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sclarkcreative/338_03_lab5_sclark20.git
+   6b8a7da..947ad85  master -> master
+grc-korea:338_03_lab5_sclark20 sclark20$ git commit -am "resize hydriflask images"
+[master 3316534] resize hydriflask images
+ 2 files changed, 57 insertions(+), 9 deletions(-)
+grc-korea:338_03_lab5_sclark20 sclark20$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 887 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/sclarkcreative/338_03_lab5_sclark20.git
+   947ad85..3316534  master -> master
+grc-korea:338_03_lab5_sclark20 sclark20$ git commit -am "add html and css comments"
+[master fc5b678] add html and css comments
+ 2 files changed, 8 insertions(+), 3 deletions(-)
+grc-korea:338_03_lab5_sclark20 sclark20$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 580 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+git staTo https://github.com/sclarkcreative/338_03_lab5_sclark20.git
+   3316534..fc5b678  master -> master
+grc-korea:338_03_lab5_sclark20 sclark20$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+grc-korea:338_03_lab5_sclark20 sclark20$ git log
+commit fc5b678bb0286efcad28af6130e9e67bb8782cde
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 2 14:25:24 2017 -0700
+
+    add html and css comments
+
+commit 3316534619d8e0c12bc495ed60db768f99628a1a
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 2 14:16:00 2017 -0700
+
+    resize hydriflask images
+
+commit 947ad85ba6b087a08729dcc5c46835ce683eb403
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 2 13:53:34 2017 -0700
+
+    add text to table
+
+commit 6b8a7dac38e986f9679319c21f3c127d41349a8f
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 2 12:53:23 2017 -0700
+
+    add files
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8782cde
+il.com>
+
+
+
+
+9628a1a
+il.com>
+
+
+
+
+83eb403
+il.com>
+
+
+
+
+1349a8f
+il.com>
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+grc-korea:338_03_lab5_sclark20 sclark20$ git commit -am "add navigation bar"
+[master daa1767] add navigation bar
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+grc-korea:338_03_lab5_sclark20 sclark20$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 428 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+git logTo https://github.com/sclarkcreative/338_03_lab5_sclark20.git
+   fc5b678..daa1767  master -> master
+grc-korea:338_03_lab5_sclark20 sclark20$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+grc-korea:338_03_lab5_sclark20 sclark20$ git log
+commit daa1767dab8d1d06543644ff87514e5abc1aedfd
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 2 14:27:44 2017 -0700
+
+    add navigation bar
+
+commit fc5b678bb0286efcad28af6130e9e67bb8782cde
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 2 14:25:24 2017 -0700
+
+    add html and css comments
+
+commit 3316534619d8e0c12bc495ed60db768f99628a1a
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 2 14:16:00 2017 -0700
+
+    resize hydriflask images
+
+commit 947ad85ba6b087a08729dcc5c46835ce683eb403
+Author: Sydney Clark <sclarkcreative@gmail.com>
+Date:   Tue May 2 13:53:34 2017 -0700
+
+    add text to table
+:
