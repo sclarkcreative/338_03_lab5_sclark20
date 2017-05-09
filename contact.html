@@ -23,9 +23,9 @@
 
 	<form>
     	<fieldset>
-        	<legend>Payment Information</legend>
-            <p><label>first name:<input type="text" name="first name">
-            last name:<input type="text" name="last name"></label></p>
+        	<legend>Personal Information</legend>
+            <p><label>First Name:<input type="text" name="first name">
+            Last Name:<input type="text" name="last name"></label></p>
             <p><label>Address<input type="text" name="address">City<input type="text" name="City"></label></p>
             <p><label>State
             	<select>
@@ -90,8 +90,11 @@
                 <input type="radio" name="gender" value="Female" check="checked"/> Female
                 <input type="radio" name="gender" value="Other" check="checked"/> Other
             </p>
+            </fieldset>
             
-            <p>Please select which color(s) HydroFlask you would like to buy</p>
+            <fieldset>
+            <legend>Product Information</legend>
+            <p>Please select which color(s) HydroFlask you would like to buy:</p>
           	<p>
                 <input type="checkbox" name="color" value="red" checked="checked"/> red
             	<input type="checkbox" name="color" value="orange" checked="checked"/> orange
@@ -102,21 +105,23 @@
                 <input type="checkbox" name="color" value="pink" checked="checked"/> pink
       
             </p>
+            </fieldset>
             
-            <hr>
-            <p>Credit Card
-            	<input type="password" name="card information"/>
+           <fieldset>
+           <legend>Payment</legend>
+            <p>Credit Card <input type="password" name="card information"/> 
             </p>
-            <input type="image" src="images/visa.png" height="15">
-            <input type="image" src="images/mastercard.png" height="30">
-            <input type="image" src="images/american_express.png" height="30">
+          
             
             <p>Expiration date       
-            <input type="text" class="form-control" placeholder="Month (00)" name="expMonth" maxlength="2" /> /
-            <input type="text" class="form-control" placeholder="Year (0000)" name="expYear" maxlength="4"/>
+            <input type="text" class="form-control" placeholder="Month (xx)" name="expMonth" maxlength="2" /> /
+            <input type="text" class="form-control" placeholder="Year (xxxx)" name="expYear" maxlength="4"/>
        		</p>
             
             <label>CVV<input type="text" name="CVV"></label>
+            <img src="images/visa.png" height="15">
+            <img src="images/mastercard.png" height="30">
+            <img src="images/american_express.png" height="30">
             
             <p> <input type="submit" name="submit" value="submit">
             </p>
